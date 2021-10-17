@@ -24,9 +24,4 @@ command pattern
 https://www.tutorialspoint.com/design_pattern/command_pattern.htm
 
 /* Run */
-C:\myprogram\java\design-pattern\23-gof\22-command\Sample2
-
-./>javac -cp ./ Main.java
-./>java -cp ./ Main
-Stock [ Name: ABC, Quantity: 10 ] bought
-Stock [ Name: ABC, Quantity: 10 ] sold
+C:\myprogram\java\design-pattern\23-gof\22-command\Sample1
