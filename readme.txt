@@ -2,7 +2,17 @@ Subject : 23 GOF design pattern
 Created : 2020-09-02
 Author : dickson.cheng
 Status : OK
+Detail :
+Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system. 
+Object-oriented design patterns typically show relationships and interactions between classes or objects, 
+without specifying the final application classes or objects that are involve
 
+-- Ref --
+Software design pattern
+https://en.wikipedia.org/wiki/Software_design_pattern
+
+
+-- Content --
 01-iterator
 02-adapter
 03-template method
