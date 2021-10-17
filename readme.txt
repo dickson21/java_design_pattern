@@ -32,7 +32,7 @@ flyweight pattern
 https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm
 
 /* Run */
-C:\myprogram\java\design-pattern\23-gof\18-state\Sample2
+C:\myprogram\java\design-pattern\23-gof\20-flyweight\Sample2
 
 ./>javac -cp ./ Main.java
 ./>java -cp ./ Main
