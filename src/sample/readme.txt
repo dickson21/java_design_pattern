@@ -1,6 +1,6 @@
 Subject : prototype
 Created : 20210114
-Author : 我爱小天心
+Author : dickson.cheng
 
 base_dir = PS C:\myprogram\java\design-pattern\06-Prototype\Sample 
 .>javac -cp ./ Main.java
