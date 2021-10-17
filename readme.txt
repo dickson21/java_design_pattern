@@ -34,30 +34,3 @@ https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm
 /* Run */
 C:\myprogram\java\design-pattern\23-gof\20-flyweight\Sample2
 
-./>javac -cp ./ Main.java
-./>java -cp ./ Main
-Creating circle of color : Black
-Circle: Draw() [Color : Black, x : 36, y :71, radius :100
-Creating circle of color : Green
-Circle: Draw() [Color : Green, x : 27, y :27, radius :100
-Creating circle of color : White
-Circle: Draw() [Color : White, x : 64, y :10, radius :100
-Creating circle of color : Red
-Circle: Draw() [Color : Red, x : 15, y :44, radius :100
-Circle: Draw() [Color : Green, x : 19, y :10, radius :100
-Circle: Draw() [Color : Green, x : 94, y :32, radius :100
-Circle: Draw() [Color : White, x : 69, y :98, radius :100
-Creating circle of color : Blue
-Circle: Draw() [Color : Blue, x : 13, y :4, radius :100
-Circle: Draw() [Color : Green, x : 21, y :21, radius :100
-Circle: Draw() [Color : Blue, x : 55, y :86, radius :100
-Circle: Draw() [Color : White, x : 90, y :70, radius :100
-Circle: Draw() [Color : Green, x : 78, y :3, radius :100
-Circle: Draw() [Color : Green, x : 64, y :89, radius :100
-Circle: Draw() [Color : Blue, x : 3, y :91, radius :100
-Circle: Draw() [Color : Blue, x : 62, y :82, radius :100
-Circle: Draw() [Color : Green, x : 97, y :61, radius :100
-Circle: Draw() [Color : Green, x : 86, y :12, radius :100
-Circle: Draw() [Color : Green, x : 38, y :93, radius :100
-Circle: Draw() [Color : Red, x : 76, y :82, radius :100
-Circle: Draw() [Color : Blue, x : 95, y :82, radius :100
