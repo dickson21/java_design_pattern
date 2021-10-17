@@ -1,21 +1,25 @@
-Subject : 01-Iterator
-Created : 2020-09-02
+Subject : Interpreter pattern
+Created : 20210304
 Author : dickson.cheng
-Status : OK
-Uses :
-get a way to access the elements of a collection object in sequential manner 
-without any need to know its underlying representation.
 
-Main 
-BookShelf <<concrete aggregator>>
-BookShelfIterator <<concrete iterator>>
-Aggregate <<interface>>
-Iterator <<interface>>
+/* Detail */
+Interpreter pattern provides a way to evaluate language grammar or expression. 
+This type of pattern comes under behavioral pattern. 
+This pattern involves implementing an expression interface which tells to interpret a particular context. 
+This pattern is used in SQL parsing, symbol processing engine etc.
 
-Main -> BookShelf -> Iterator -> BookShelfIterator
+Implementation
+We are going to create an interface Expression and concrete classes implementing the Expression interface. 
+A class TerminalExpression is defined which acts as a main interpreter of context in question. 
+Other classes OrExpression, AndExpression are used to create combinational expressions.
 
-C:\myprogram\java\design-pattern\01-Iterator\Sample>java -cp ./ Main
-Around the World in 80 Days
-Bible
-Cinderella
-Daddy-Long-Legs
+InterpreterPatternDemo, our demo class, 
+will use Expression class to create rules and demonstrate parsing of expressions.
+
+
+/* Ref */
+interpreter pattern
+https://www.tutorialspoint.com/design_pattern/interpreter_pattern.htm
+
+/* Run */
+C:\myprogram\java\design-pattern\23-gof\23-interpreter\Sample1
